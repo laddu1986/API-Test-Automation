@@ -11,7 +11,7 @@ It Provide a very highlevel understanding of a test case, shown in simple Englis
 
 * [Chai](https://www.chaijs.com/): is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 
-* [Reporting](https://github.com/gkushang/cucumber-html-reporter#readme): is a simple Html report generator that convert the generated CucumberJS .Json report to an html viewable report.
+* [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter#readme): is a simple Html report generator that convert the generated CucumberJS .Json report to an html viewable report.
 
 
 ## Getting Started
