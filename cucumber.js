@@ -1,6 +1,6 @@
 const common = [
   'features',
-  '--format json:features/cucumber.json'
+  '--format json:reports/cucumber_report.json'
 ].join(' ');
 
 module.exports = {
