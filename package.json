@@ -1,7 +1,7 @@
 {
-  "name": "assurityAPITest",
+  "name": "practicalAPITest",
   "version": "0.0.0",
-  "description": "This is a simple project to cover the Assurity Practical API test",
+  "description": "This is a simple project for a simple Practical API test",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js -p smoke",
