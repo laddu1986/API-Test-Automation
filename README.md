@@ -1,8 +1,8 @@
-# Assurity Practical Test (API) Project
+# Practical Test (API) Project
 
 ## Project Outline
 
-This project is a simple API automation framework BDD that uses CucumberJS  Request Promise Native, Chai, and Cucumber-html Reporter which are a collection java scripts librarys as it's core components.
+This project is a simple API automation framework BDD that uses CucumberJS, Request Promise Native, Chai, and Cucumber-html Reporter which are a collection java scripts librarys as it's core components.
 
 * [CucumberJS](https://github.com/cucumber/cucumber-js): is a javascript version of Cucumber/Gherkin library, which present a test scenario that is readble and easy access to any person who is not much into coding or able to read line of code. 
 It Provide a very highlevel understanding of a test case, shown in simple English term.
