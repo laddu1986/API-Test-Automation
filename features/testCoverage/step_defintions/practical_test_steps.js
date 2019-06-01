@@ -5,7 +5,7 @@ const { Given, When, Then } = require('cucumber');
 const { expect } = require('chai');
 
 // API Objects
-const assurityAPI = require('../api/assurityPracticalTest_api');
+const assurityAPI = require('../api/practicalTest_api');
 
 Given(/^a user perform a GET call$/, async () => {
   this.response = await assurityAPI.getData();
@@ -15,17 +15,13 @@ When(/^the response return a statusCode of (\d+)$/, (statusCode) => {
   expect(this.response.statusCode).to.equal(statusCode);
 });
 
-Then(/^the response contains the name "([^"]*)?"$/, (nameValue) => {
-  expect(this.response.body.Name).to.equal(nameValue);
+Then(/^the total number of item return is equal to (\d+)$/, (size) => {
+  expect(this.response.body.items.length).to.equal(size);
 });
 
-When(/^the response proptery CanRelist is set to true$/, () => {
-  expect(this.response.body.CanRelist).to.true;
-});
-
-When(/^the Promotions property contains an Item "([^"]*)?" with Description contains "([^"]*)?"$/, (itemName, description) => {
-  const promotions = this.response.body.Promotions;
-  for (let i = 0; i < promotions.length; i += 1) {
-    if (promotions[i].Name === itemName) expect(promotions[i].Description).to.contains(description);
+Then(/^each item has a fields object with a defined title$/, () => {
+  const item = this.response.body.items;
+  for (let i = 0; i < item.length; i += 1) {
+    expect(item[i].fields.title).to.not.be.empty;
   }
 });

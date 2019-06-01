@@ -15,9 +15,12 @@ It Provide a very highlevel understanding of a test case, shown in simple Englis
 
 
 ## Getting Started
-To run the project, please run these scripts in order
+There are two ways to run the project,
 
-* Run 
+* Run runProject.sh
+This will run the installation, linting, test, and generate the report
+
+* Run each script individually
 
 ```
 npm i

@@ -1,5 +1,5 @@
 {
-  "name": "practicalAPITest",
+  "name": "practicalapitest",
   "version": "0.0.0",
   "description": "This is a simple project for a simple Practical API test",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "cucumber-html-reporter": "^5.0.0",
     "eslint": "5.16.0",
     "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "2.17.0",
+    "eslint-plugin-import": "2.17.3",
     "request": "2.88.0",
     "request-promise-native": "1.0.7"
   },
