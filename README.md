@@ -17,23 +17,17 @@ It Provide a very highlevel understanding of a test case, shown in simple Englis
 ## Getting Started
 There are two ways to run the project,
 
-* Run runProject.sh
-This will run the installation, linting, test, and generate the report
+* Run ./runProject.sh
+ - This will run the installation of all dependencies, linting, test, and generate the report
 
 * Run each script individually
 
 ```
 npm i
 npm run lint
+npm run test
+npm run report
 ```
-* Run test
-
-`npm run test`
-
-* Run report
-
-`npm run report`
-
 Note:
 Assuming your machine alraedy got all required NodeJS and NPM files installed and up to date to latest verion.
 Currently running on NodeJS v11.14.0 and NPM v6.7.0 on Windows
