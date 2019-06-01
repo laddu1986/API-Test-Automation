@@ -18,7 +18,7 @@ It Provide a very highlevel understanding of a test case, shown in simple Englis
 There are two ways to run the project,
 
 * Run ./runProject.sh
- - This will run the installation of all dependencies, linting, test, and generate the report
+ -- This will run the installation of all dependencies, linting, test, and generate the report
 
 * Run each script individually
 
