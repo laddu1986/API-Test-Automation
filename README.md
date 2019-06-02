@@ -15,10 +15,13 @@ It Provide a very highlevel understanding of a test case, shown in simple Englis
 
 
 ## Getting Started
-There are two ways to run the project,
+There are two ways to run the project, by openning any command line
 
-* Run ./runProject.sh
- -- This will run the installation of all dependencies, linting, test, and generate the report
+* Run 
+```
+./runProject.sh
+```
+ This will run the installation of all dependencies, linting, test, and generate the report
 
 * Run each script individually
 
