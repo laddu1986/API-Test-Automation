@@ -9,6 +9,7 @@ const createHeader = (header, value) => {
   }
 
   headers[HEADER.CONTENT_TYPE] = 'application/json';
+  console.log('%%%%%%%%%%  Headers in the response %%%%%%%%% ', headers);
   return headers;
 };
 

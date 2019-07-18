@@ -1,7 +1,7 @@
 {
-  "name": "practicalapitest",
+  "name": "APITestAutomation",
   "version": "0.0.0",
-  "description": "This is a simple project for a simple Practical API test",
+  "description": "Project for a simple Practical API test",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js -p smoke",
@@ -26,6 +26,6 @@
     "request": "2.88.0",
     "request-promise-native": "1.0.7"
   },
-  "author": "Ali Al-Sarraf",
+  "author": "Laddu shashavali",
   "license": "ISC"
 }

@@ -16,6 +16,8 @@ When(/^the response return a statusCode of (\d+)$/, (statusCode) => {
 });
 
 Then(/^the total number of item return is equal to (\d+)$/, (size) => {
+  console.log('   %%%%%%%%%%%%%%   Response of JSON Request sent %%%%%%%%%%%%%% ');
+  console.log('   %%%%%%%%%%%%%%   Response of JSON Request sent %%%%%%%%%%%%%% ', this.response.body.items);
   expect(this.response.body.items.length).to.equal(size);
 });
 
